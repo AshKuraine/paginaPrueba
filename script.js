@@ -14,7 +14,7 @@ function validarFormulario() {
   parrafo.innerHTML = "";
 
   if (nombre.value.length < 4) {
-    warnings += `El nombre debe contener más de 4 carcateres`;
+    warnings += `El nombre debe contener más de 4 caracteres`;
     valido = false;
   }
 
